@@ -1,26 +1,17 @@
-/* HIDE RADIO */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* HIDE RADIO */
 .container{
-    width: 800px;
-    margin: 0 auto;
+    max-width:800px;
+    margin:0 auto;
 }
-h1{
-    color:  #9A9A9A;
+.container.header{
     text-align: center;
-    justify-content: center;
-    font-family: "Roboto Light";
-
 }
-.container > img{
-    margin: 0 auto;
-    display: block;
-    margin-top: 40px;
-}
-
 .pumps {
     display:flex;
+    justify-content:space-between;
     gap:10px;
-    justify-content: space-around;
 }
 
 
