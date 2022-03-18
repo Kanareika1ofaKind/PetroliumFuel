@@ -7,11 +7,20 @@ function pumpCalc() {
     let totalPrice = (pricePLiter * liters);
     let valueTax = (totalPrice * (VAT / 100));
 
+
     document.getElementById('petrolType').innerText = pump;
     document.getElementById('pricePerLiter').innerText = '$' + Number(pricePLiter).toFixed(2);
     document.getElementById('totalLiters').innerText = liters;
     document.getElementById('VAT').innerText = VAT + '%' + ` ($${valueTax.toFixed(2)})`;
     document.getElementById('totalPrice').innerText = '$' + (valueTax + totalPrice).toFixed(2);
+
+
 }
+const btn = document.querySelector('.btn')
+
+btn.addEventListener('click',() =>{
+    pumpCalc()
+})
+
 
 pumpCalc()
