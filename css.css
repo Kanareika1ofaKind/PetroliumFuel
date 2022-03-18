@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    text-align: center
 }
 
 
@@ -56,11 +57,19 @@
 .pumps .values [type=text] {
     width: 140px;
 }
-
-h3{
-    margin: 0;
+h1{
+    margin-top: -45px;
 }
 
-label{
- font-weight: bold;
+.number{
+    width: 50px;
+    height: 30px;
+    font-size: large;"
+
 }
+
+
+
+
+
+
